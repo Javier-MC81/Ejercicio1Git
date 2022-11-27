@@ -1,6 +1,9 @@
 # Practica1
--¿Qué comando utilizaste en el paso 11?¿Por qué?
-git reset --hard HEAD~1  Porque es la forma de volver al commit anterior perdiendo los cambios en el working copy. 
+-------
+
+>-¿Qué comando utilizaste en el paso 11?¿Por qué?
+
+*git reset --hard HEAD~1  Porque es la forma de volver al commit anterior perdiendo los cambios en el working copy.* 
 -¿Qué comando o comandos utilizaste en el paso 12?¿Por qué?
 git reflog (para rastrear el ID del cmmit donde está modificado el archivo )
 git reset eb7c7ad ( vuelvo con HEAD  y la rama styled al commit del archivo modificado para rehacer el commit ).
