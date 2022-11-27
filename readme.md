@@ -35,7 +35,8 @@ Hubiera bastado con mover HEAD/Main a ese commit de la rama title. Si no lo hubi
 -------
 >-¿Qué comando o comandos utilizaste en el paso 27?¿Por qué?
 
-git reset HEAD~1. Para volver al commit padre anterior que lo reconoce como aquel donde estaba antes la rama main y no perder los cambios del working copy. 
+git reset HEAD~1. 
+Para volver al commit padre anterior que lo reconoce como aquel donde estaba antes la rama main y no perder los cambios del working copy. 
 Con un hard los hubiéramos perdido y con un HEAD~2 se hubiera ido a la rama del title.
 -------
 >-¿Qué comando o comandos utilizaste en el paso 28?¿Por qué?
@@ -58,6 +59,7 @@ git reflog (busco el ID del primer commit)
 git checkout 3634c95 ( ID del primer commit después de buscarlo y me voy ahí con HEAD en estado detached).
 -------
 >-¿Qué comando o comandos utilizaste en el paso 33?¿Por qué?
+
 git reflog (para rastrear el ID del commit del merge entre las ramas main y title).
 git checkout ee221e1 (vuelvo con HEAD a ese commit).
 git checkout main ( coloco HEAD en la rama main)
