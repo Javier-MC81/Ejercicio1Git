@@ -35,7 +35,8 @@ Hubiera bastado con mover HEAD/Main a ese commit de la rama title. Si no lo hubi
 -------
 >-¿Qué comando o comandos utilizaste en el paso 27?¿Por qué?
 
-git reset HEAD~1. 
+git reset HEAD~1.
+ 
 Para volver al commit padre anterior que lo reconoce como aquel donde estaba antes la rama main y no perder los cambios del working copy. 
 Con un hard los hubiéramos perdido y con un HEAD~2 se hubiera ido a la rama del title.
 -------
